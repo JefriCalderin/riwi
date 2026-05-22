@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 500px;
+  background: #111827;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.area-input{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input{
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+button{
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover{
+  background: #1d4ed8;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  background: #374151;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnEliminar{
+  background: #dc2626;
+}
+
+.btnEliminar:hover{
+  background: #b91c1c;
+}
